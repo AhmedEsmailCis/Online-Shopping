@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.ahmed_esmail.MainPageActivity">
+    <item
+        android:id="@+id/action_searching"
+        android:icon="@android:drawable/ic_search_category_default"
+        android:title="@android:string/search_go"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_Logout"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"
+        android:title="Logout"
+        app:showAsAction="always" />
+</menu>
